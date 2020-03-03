@@ -4,14 +4,8 @@ using UnityEngine;
 
 public class Item : MonoBehaviour
 {
-    string itemName;
-    string description;
-
-    public Item(string itemName, string description) 
-    {
-        this.itemName = itemName;
-        this.description = description;
-    }
+    [SerializeField] string itemName;
+    [SerializeField] string description;
 
     public string getName() 
     {
