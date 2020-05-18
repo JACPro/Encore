@@ -569,14 +569,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e4c14791cfcaf048929e405ba4d0a5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue:
-    name: Peter Minuit
-    sentences:
-    - Hello, my name is Peter Minuit. I'm an American Colonist looking to purchase
-      Manhattan.
-    - The native Americans don't realize the value of their land. We'll buy it from
-      them for a low price.
-    - When we own the land, we'll be able to build a thriving community here in America.
+  dialogue: {fileID: 11400000, guid: f2c11a475241b9b4c85b60dcbba91947, type: 2}
 --- !u!114 &854988530
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -694,6 +687,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: {fileID: 1534295159}
   dialogueText: {fileID: 1082365184}
+  continueButton: {fileID: 1450687549}
   animator: {fileID: 367661013}
 --- !u!4 &1039817037
 Transform:
@@ -1097,7 +1091,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1039817036}
         m_MethodName: DisplayNextSentence
-        m_Mode: 1
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
