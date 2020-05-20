@@ -12,8 +12,8 @@ public class PlayerInteract : MonoBehaviour
     //How far from the camera to detect interactable objects
     [SerializeField] int rayLength = 4;
 
-    //The layer in which the ray will look for interactable objects
-    [SerializeField] LayerMask interactionMask;
+    //The layer to be ignored when looking for objects
+    [SerializeField] LayerMask ignoreMask;
 
     //For displaying a visual crosshair in the middle of the screen
     [SerializeField] Image crosshair;
@@ -33,7 +33,7 @@ public class PlayerInteract : MonoBehaviour
     {
         RaycastHit hit;
 
-        if (Physics.Raycast(transform.position, transform.forward, out hit, rayLength, interactionMask.value))
+        if (Physics.Raycast(transform.position, transform.forward, out hit, rayLength, ~ignoreMask.value))
         {
             if (hit.collider.CompareTag("Item"))
             {
@@ -43,7 +43,10 @@ public class PlayerInteract : MonoBehaviour
                     CrosshairActive(true);
                 }
                 PickupItem();
+            } else {
+                CrosshairActive(false);
             }
+            Debug.Log(hit.collider.gameObject);
         }
         else if (crosshairActive)
         {

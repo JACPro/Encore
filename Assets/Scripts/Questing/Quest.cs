@@ -13,7 +13,7 @@ public class Quest : ScriptableObject
 
     public bool IsComplete() {
         foreach (Goal goal in goals) {
-            if (!goal.IsCompleted()) {
+            if (!goal.completed) {
                 return false;
             }
         }

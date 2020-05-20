@@ -1,0 +1,192 @@
+fileFormatVersion: 2
+guid: 8cc945666123aed408fbeb6ead9a968e
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Native_American_male_feather_1
+    100004: Native_American_male_feather_2
+    100006: Native_American_male_hair
+    100008: Native_American_male_hand_R
+    100010: Native_American_male_hands_L
+    100012: Native_American_male_head
+    100014: Native_American_male_pants_shoe
+    100016: Native_American_male_sweater
+    100018: Native_American_male_vest
+    400000: //RootNode
+    400002: Native_American_male_feather_1
+    400004: Native_American_male_feather_2
+    400006: Native_American_male_hair
+    400008: Native_American_male_hand_R
+    400010: Native_American_male_hands_L
+    400012: Native_American_male_head
+    400014: Native_American_male_pants_shoe
+    400016: Native_American_male_sweater
+    400018: Native_American_male_vest
+    2100000: Native_American_male_feather_1Mat
+    2100002: Native_American_male_feather_2Mat
+    2100004: Native_American_male_hairMat
+    2100006: Native_American_male_hand_RMat
+    2100008: Native_American_male_hands_LMat
+    2100010: Native_American_male_headMat
+    2100012: Native_American_male_pants_shoeMat
+    2100014: Native_American_male_sweaterMat
+    2100016: Native_American_male_vestMat
+    2300000: Native_American_male_feather_1
+    2300002: Native_American_male_feather_2
+    2300004: Native_American_male_hair
+    2300006: Native_American_male_hand_R
+    2300008: Native_American_male_hands_L
+    2300010: Native_American_male_head
+    2300012: Native_American_male_pants_shoe
+    2300014: Native_American_male_sweater
+    2300016: Native_American_male_vest
+    3300000: Native_American_male_feather_1
+    3300002: Native_American_male_feather_2
+    3300004: Native_American_male_hair
+    3300006: Native_American_male_hand_R
+    3300008: Native_American_male_hands_L
+    3300010: Native_American_male_head
+    3300012: Native_American_male_pants_shoe
+    3300014: Native_American_male_sweater
+    3300016: Native_American_male_vest
+    4300000: Native_American_male_feather_1
+    4300002: Native_American_male_feather_2
+    4300004: Native_American_male_hair
+    4300006: Native_American_male_hand_R
+    4300008: Native_American_male_hands_L
+    4300010: Native_American_male_head
+    4300012: Native_American_male_pants_shoe
+    4300014: Native_American_male_sweater
+    4300016: Native_American_male_vest
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Native_American_male_feather_1Mat
+    second: {fileID: 2100000, guid: 96916cd40aa1c6c48b5fbaf7361491aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Native_American_male_feather_2Mat
+    second: {fileID: 2100000, guid: c30345f7f7bde2a448a3de55ba7af61b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Native_American_male_hairMat
+    second: {fileID: 2100000, guid: 3859f907a094b77458f004b2f007e1d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Native_American_male_hand_RMat
+    second: {fileID: 2100000, guid: 6df77e66a3ff11e469b873a755d45232, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Native_American_male_hands_LMat
+    second: {fileID: 2100000, guid: 21fd7a52e610e934a8ca54d630b3375f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Native_American_male_headMat
+    second: {fileID: 2100000, guid: 84fd41e1598a4bb429f951604444d603, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Native_American_male_pants_shoeMat
+    second: {fileID: 2100000, guid: aaa5b50c65e891243b32c2f49d2fbec4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Native_American_male_sweaterMat
+    second: {fileID: 2100000, guid: 4685a8b4f68b3ba44a6e22041e1f075d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Native_American_male_vestMat
+    second: {fileID: 2100000, guid: a90b6701f46cd974db617012af848b13, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.02
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

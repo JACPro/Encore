@@ -10,7 +10,6 @@ public class QuestManager : MonoBehaviour
 
     [SerializeField]
     GameObject textBox;
-    TextMeshProUGUI textBoxTmp;
 
     //the maximum number of quests you can have at any one time
     int maxQuests = 5;
@@ -18,11 +17,19 @@ public class QuestManager : MonoBehaviour
     float paddingBetweenQuests = 10f;
 
     void Start() {
-        textBoxTmp = textBox.GetComponent<TextMeshProUGUI>();
         Quest quest1 = new Quest();
         quest1.name = "Wow! My first Quest!";
         quest1.description = "Wow! My first Quest!";
         GiveQuest(quest1);
+        Goal goal1 = new FetchGoal();
+        goal1.name = "Go fetch a thing!";
+        goal1.description = "Description says you should go fetch a thing!";
+        goal1.completed = true;
+        Goal goal2 = new TalkGoal();
+        goal2.name = "Go talk to someone!";
+        goal2.description = "Description says you should go talk to someone!";
+        quest1.AssignGoal(goal1);
+        quest1.AssignGoal(goal2);
         Quest quest2 = new Quest();
         quest2.name = "A second quest. Time for an adventure!";
         quest2.description = "A second quest. Time for an adventure!";
@@ -61,8 +68,6 @@ public class QuestManager : MonoBehaviour
                 textBox.transform.localPosition.y - textBox.GetComponent<RectTransform>().rect.height * activeQuests.Count - paddingBetweenQuests * activeQuests.Count, 
                 0f
             );
-            Debug.Log(textBox.transform.localPosition.y - textBox.GetComponent<RectTransform>().rect.height * activeQuests.Count); 
-            Debug.Log(textBox.transform.localPosition.y - textBox.GetComponent<RectTransform>().rect.height * activeQuests.Count - paddingBetweenQuests);
             questTextBox.gameObject.SetActive(true);            
             quest.AssignTextbox(questTextBox);
             activeQuests.Add(quest);

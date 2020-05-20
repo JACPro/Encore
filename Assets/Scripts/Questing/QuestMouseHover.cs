@@ -4,23 +4,29 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using TMPro;
 
-public class QuestMouseHover : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
+public class QuestMouseHover : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
 {
     [SerializeField]
     GameObject tooltip;
 
     TextMeshProUGUI tmpText;
 
+    QuestManager questManager;
+
+    GoalManager goalManager;
+
     void Start() {
         tmpText = GetComponent<TextMeshProUGUI>();
+        questManager = FindObjectOfType<QuestManager>();
+        goalManager = FindObjectOfType<GoalManager>();
     }    
 
     public void OnPointerEnter(PointerEventData eventData)
     {
         tooltip.SetActive(true);
-        tmpText.color = Color.red; //change text to red when hover
+        tmpText.color = new Color(253/255f, 117/255f, 80/255f); //change text to orange/red when hover, same colour as close button
         //change description text of tooltip
-        tooltip.GetComponentInChildren<TextMeshProUGUI>().text = FindObjectOfType<QuestManager>().activeQuests[Int32.Parse(name)].name;
+        tooltip.GetComponentInChildren<TextMeshProUGUI>().text = questManager.activeQuests[Int32.Parse(name)].description;
         tooltip.GetComponentInChildren<TextMeshProUGUI>().ForceMeshUpdate();
         float toolTextPadding = 10f;
         Vector2 backgroundSize = new Vector2(tooltip.GetComponentInChildren<TextMeshProUGUI>().textBounds.size.x + toolTextPadding * 2f, tooltip.GetComponentInChildren<TextMeshProUGUI>().preferredHeight + toolTextPadding * 2f);
@@ -31,8 +37,11 @@ public class QuestMouseHover : MonoBehaviour, IPointerEnterHandler, IPointerExit
     {
         tmpText.color = Color.black; //change text to black on exit
         tooltip.SetActive(false);
-        //Debug.Log(tooltip.GetComponentInChildren<TextMeshProUGUI>().textBounds.size.x);
+    }
 
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        goalManager.ShowGoals(questManager.activeQuests[Int32.Parse(name)]);
     }
 
     private void Update() {
