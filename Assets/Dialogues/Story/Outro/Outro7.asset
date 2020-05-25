@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3691e63c8293404f8f010651b61a6ee, type: 3}
+  m_Name: Outro7
+  m_EditorClassIdentifier: 
+  dialogueText: "Do yourself a favour and study. I mean really study, like you\u2019ve
+    never studied before."
+  name: Teacher
+  nextStates:
+  - {fileID: 11400000, guid: 765ca4dc13668f14b84b54ed831fed4f, type: 2}

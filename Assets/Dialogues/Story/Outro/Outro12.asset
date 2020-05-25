@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3691e63c8293404f8f010651b61a6ee, type: 3}
+  m_Name: Outro12
+  m_EditorClassIdentifier: 
+  dialogueText: "Use your head and read between the lines. You don\u2019t need to
+    tell me what really happened, only what might have happened. But make it convincing.
+    Make it real."
+  name: Teacher
+  nextStates:
+  - {fileID: 0}

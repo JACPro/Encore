@@ -31,7 +31,10 @@ public class DialogueManager : MonoBehaviour
             }
             if (Input.GetKeyDown(KeyCode.Alpha2))
             {
-                DisplayNextSentence(2);
+                if (currentState.getNextStates().Length > 1)
+                {
+                    DisplayNextSentence(2);
+                }
             }
             if (Input.GetKeyDown(KeyCode.Alpha3))
             {
@@ -45,7 +48,7 @@ public class DialogueManager : MonoBehaviour
     public void StartDialogue (DialogueState startingDialogue) {
         animator.SetBool("IsOpen", true);
         currentState = startingDialogue;
-        DisplayNextSentence(0);
+        SetNextState();
     }
 
     public void DisplayNextSentence(int choice) {        
@@ -65,7 +68,8 @@ public class DialogueManager : MonoBehaviour
         }
 
         //determine the next state
-        switch (choice) {
+        switch (choice)
+        {
             case 0: //if this state is non-user choice
                 currentState = currentState.getNextStates()[0];
                 break;
@@ -74,15 +78,21 @@ public class DialogueManager : MonoBehaviour
                 break;
         }
 
+        SetNextState();
+    }
+
+    void SetNextState() {
         nameText.text = currentState.getName();
-        if (currentState.getNextStates() == null || currentState.getNextStates().Length < 2)
+        if (currentState.getName() != "You")
         {
             continueButton.gameObject.SetActive(true); //show the continue button
             waitingForResponse = false;
             isTyping = true;
             StopAllCoroutines();
             StartCoroutine(TypeSentence(currentState.getDialogueText()));
-        } else {
+        }
+        else
+        {
             continueButton.gameObject.SetActive(false); //hide the continue button
             waitingForResponse = true;
             dialogueText.text = currentState.getDialogueText(); //set choice text        

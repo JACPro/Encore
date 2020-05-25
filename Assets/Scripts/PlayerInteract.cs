@@ -45,8 +45,9 @@ public class PlayerInteract : MonoBehaviour
                 PickupItem();
             } else {
                 CrosshairActive(false);
+                pickupProgressImage.fillAmount = 0;
+                currentTimeElapsed = 0;
             }
-            Debug.Log(hit.collider.gameObject);
         }
         else if (crosshairActive)
         {

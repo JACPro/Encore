@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3691e63c8293404f8f010651b61a6ee, type: 3}
+  m_Name: Ch4P2
+  m_EditorClassIdentifier: 
+  dialogueText: '1. Yes, here you go. [Give bag of supplies]
+
+    2. Not yet.'
+  name: You
+  nextStates:
+  - {fileID: 11400000, guid: 29a5e42e4c606074586223ad3eb2d624, type: 2}
+  - {fileID: 11400000, guid: b2939acabbad8354e8b89cbb56e3faef, type: 2}

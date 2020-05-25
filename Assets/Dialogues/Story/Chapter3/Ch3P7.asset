@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3691e63c8293404f8f010651b61a6ee, type: 3}
+  m_Name: Ch3P7
+  m_EditorClassIdentifier: 
+  dialogueText: "You must have dealt with their kind before, to be such a fluent speaker!
+    You\u2019ve caused me a lot of trouble, but if you act as our translator, I\u2019ll
+    forget your crimes."
+  name: Peter Minuit
+  nextStates:
+  - {fileID: 11400000, guid: 33849d41bc126c342a7f1ad7a84f771a, type: 2}
