@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Ch5P1
   m_EditorClassIdentifier: 
   dialogueText: What news do you bring?
-  name: Peter Minuit
+  NpcName: Peter Minuit
   nextStates:
   - {fileID: 11400000, guid: 33e9e67c218ccb84c91026f23ebd8f06, type: 2}

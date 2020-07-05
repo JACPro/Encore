@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: If they like what they see, we can bring more goods from home to give
     them so they will move.
-  name: Peter Minuit
+  NpcName: Peter Minuit
   nextStates:
   - {fileID: 11400000, guid: 2fa969fa3a602fc4ca4b112ecc03fd83, type: 2}

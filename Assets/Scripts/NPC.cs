@@ -4,15 +4,21 @@ using UnityEngine;
 
 public class NPC : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+    [SerializeField]
+    string name;
+
+    [SerializeField]
+    DialogueState startingState;
+
+    public string GetName() {
+        return name;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    public DialogueState GetDialogueState() {
+        return startingState;
+    }
+
+    public void SetDialogueState(DialogueState state) {
+        startingState = state;
     }
 }

@@ -1265,71 +1265,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tooltip: {fileID: 1734887783}
---- !u!1 &1158849043
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1158849045}
-  - component: {fileID: 1158849044}
-  - component: {fileID: 1158849046}
-  m_Layer: 0
-  m_Name: QuestManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1158849044
+--- !u!114 &1158849046 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 3172387728159840370, guid: c66e512387bfa2643b48de4189ca13fa,
+    type: 3}
+  m_PrefabInstance: {fileID: 3172387729318361700}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1158849043}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3455a8a7519afa4c950b69e42557be4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  activeQuests: []
-  textBox: {fileID: 1266474041}
---- !u!4 &1158849045
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1158849043}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 240.21812, y: 195.02686, z: -1.7927624}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1158849046
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1158849043}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c0eaf6d5de969f748975a33d3b5b3aba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activeGoals: []
-  textBox:
-  - {fileID: 521487949}
-  - {fileID: 1979745565}
-  - {fileID: 1115221811}
-  - {fileID: 664567765}
-  - {fileID: 624384369}
 --- !u!1 &1266474041
 GameObject:
   m_ObjectHideFlags: 0
@@ -2555,3 +2502,102 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1984721758}
   m_CullTransparentMesh: 0
+--- !u!1001 &3172387729318361700
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3172387728159840368, guid: c66e512387bfa2643b48de4189ca13fa,
+        type: 3}
+      propertyPath: textBox
+      value: 
+      objectReference: {fileID: 1266474041}
+    - target: {fileID: 3172387728159840369, guid: c66e512387bfa2643b48de4189ca13fa,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 240.21812
+      objectReference: {fileID: 0}
+    - target: {fileID: 3172387728159840369, guid: c66e512387bfa2643b48de4189ca13fa,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 195.02686
+      objectReference: {fileID: 0}
+    - target: {fileID: 3172387728159840369, guid: c66e512387bfa2643b48de4189ca13fa,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.7927624
+      objectReference: {fileID: 0}
+    - target: {fileID: 3172387728159840369, guid: c66e512387bfa2643b48de4189ca13fa,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3172387728159840369, guid: c66e512387bfa2643b48de4189ca13fa,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3172387728159840369, guid: c66e512387bfa2643b48de4189ca13fa,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3172387728159840369, guid: c66e512387bfa2643b48de4189ca13fa,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3172387728159840369, guid: c66e512387bfa2643b48de4189ca13fa,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3172387728159840369, guid: c66e512387bfa2643b48de4189ca13fa,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3172387728159840369, guid: c66e512387bfa2643b48de4189ca13fa,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3172387728159840369, guid: c66e512387bfa2643b48de4189ca13fa,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3172387728159840370, guid: c66e512387bfa2643b48de4189ca13fa,
+        type: 3}
+      propertyPath: textBox.Array.data[0]
+      value: 
+      objectReference: {fileID: 521487949}
+    - target: {fileID: 3172387728159840370, guid: c66e512387bfa2643b48de4189ca13fa,
+        type: 3}
+      propertyPath: textBox.Array.data[1]
+      value: 
+      objectReference: {fileID: 1979745565}
+    - target: {fileID: 3172387728159840370, guid: c66e512387bfa2643b48de4189ca13fa,
+        type: 3}
+      propertyPath: textBox.Array.data[2]
+      value: 
+      objectReference: {fileID: 1115221811}
+    - target: {fileID: 3172387728159840370, guid: c66e512387bfa2643b48de4189ca13fa,
+        type: 3}
+      propertyPath: textBox.Array.data[3]
+      value: 
+      objectReference: {fileID: 664567765}
+    - target: {fileID: 3172387728159840370, guid: c66e512387bfa2643b48de4189ca13fa,
+        type: 3}
+      propertyPath: textBox.Array.data[4]
+      value: 
+      objectReference: {fileID: 624384369}
+    - target: {fileID: 3172387728159840375, guid: c66e512387bfa2643b48de4189ca13fa,
+        type: 3}
+      propertyPath: m_Name
+      value: QuestManager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c66e512387bfa2643b48de4189ca13fa, type: 3}

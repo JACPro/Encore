@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Ch2P5
   m_EditorClassIdentifier: 
   dialogueText: Have you brought the supplies promised to us by chief Minuit?
-  name: Chief Seyseys
+  NpcName: Chief Seyseys
   nextStates:
   - {fileID: 11400000, guid: 17efde0ec09ec2c4c90fe14fe1384dbe, type: 2}

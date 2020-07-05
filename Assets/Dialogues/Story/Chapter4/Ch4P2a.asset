@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Ch4P2a
   m_EditorClassIdentifier: 
   dialogueText: Then we have nothing to discuss.
-  name: Chief Seyseys
+  NpcName: Chief Seyseys
   nextStates:
   - {fileID: 0}

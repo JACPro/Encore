@@ -15,7 +15,7 @@ MonoBehaviour:
   dialogueText: '1. Yes, here you go. [Give bag of supplies]
 
     2. Not yet.'
-  name: You
+  NpcName: You
   nextStates:
   - {fileID: 11400000, guid: 29a5e42e4c606074586223ad3eb2d624, type: 2}
   - {fileID: 11400000, guid: b2939acabbad8354e8b89cbb56e3faef, type: 2}

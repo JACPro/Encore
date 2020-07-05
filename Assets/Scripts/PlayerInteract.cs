@@ -25,35 +25,55 @@ public class PlayerInteract : MonoBehaviour
     [SerializeField] TextMeshProUGUI PressEText;    
     float currentTimeElapsed;
 
+    bool canInteract = true;
+
     /*
     Send a ray out in the direction the player is facing and check if it finds any objects
     If found objects are items, change crosshair and allow interaction
     */
     void Update() 
     {
-        RaycastHit hit;
-
-        if (Physics.Raycast(transform.position, transform.forward, out hit, rayLength, ~ignoreMask.value))
-        {
-            if (hit.collider.CompareTag("Item"))
+        if (canInteract) {
+            RaycastHit hit;
+        
+            if (Physics.Raycast(transform.position, transform.forward, out hit, rayLength, ~ignoreMask.value))
             {
-                objectToInteract = hit.collider.gameObject;
-                if (!crosshairActive)
+                if (hit.collider.CompareTag("Item"))
                 {
-                    CrosshairActive(true);
+                    objectToInteract = hit.collider.gameObject;
+                    if (!crosshairActive)
+                    {
+                        CrosshairActive(true, "Item");
+                    }
+                    PickupItem();
+                } else if (hit.collider.CompareTag("Colonial") || hit.collider.CompareTag("Canarsee")) {
+                    objectToInteract = hit.collider.gameObject;
+                    if (!crosshairActive)
+                    {
+                        CrosshairActive(true, "NPC");
+                    }
+                    if (hit.transform.GetComponent<NPC>().GetDialogueState() != null) {
+                        TalkToNPC(hit.transform.GetComponent<NPC>().GetDialogueState());
+                    }
+                } else {
+                    CrosshairActive(false, "");
+                    pickupProgressImage.fillAmount = 0;
+                    currentTimeElapsed = 0;
                 }
-                PickupItem();
-            } else {
-                CrosshairActive(false);
+            }
+            else if (crosshairActive)
+            {
+                CrosshairActive(false, "");
                 pickupProgressImage.fillAmount = 0;
                 currentTimeElapsed = 0;
             }
         }
-        else if (crosshairActive)
+    }
+
+    void TalkToNPC(DialogueState state) {
+        if (Input.GetKeyDown(KeyCode.E))
         {
-            CrosshairActive(false);
-            pickupProgressImage.fillAmount = 0;
-            currentTimeElapsed = 0;
+            FindObjectOfType<DialogueManager>().StartDialogue(state);
         }
     }
 
@@ -82,13 +102,20 @@ public class PlayerInteract : MonoBehaviour
     /*
     Change the crosshair colour and displayed interaction text
     */
-    void CrosshairActive(bool isActive) 
+    void CrosshairActive(bool isActive, string tag) 
     {
         if (isActive) 
         {
+            Debug.Log(objectToInteract);
+
             crosshair.color = Color.red;
             crosshairActive = true;
-            PressEText.text = "Hold E to pick up " + objectToInteract.GetComponent<Item>().getName();
+            if (tag == "Item") {
+                PressEText.text = "Hold E to pick up " + objectToInteract.GetComponent<Item>().GetName();
+            } else if (tag == "NPC") {
+                PressEText.text = "Press E to talk to " + objectToInteract.GetComponent<NPC>().GetName();                
+            }
+        
         } 
         else 
         {
@@ -104,7 +131,12 @@ public class PlayerInteract : MonoBehaviour
     */
     void MoveItemToInventory() {
         //TODO change add the object to the inventory
+        FindObjectOfType<GameManager>().PickupItem(objectToInteract.GetComponent<Item>().GetName());
         objectToInteract.SetActive(false);
         PressEText.text = "";
+    }
+
+    public void SetCanInteract(bool canInteract) {
+        this.canInteract = canInteract;
     }
 }

@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: 1. Seyseys sent me back. He said something about bringing supplies
     you owe him?
-  name: You
+  NpcName: You
   nextStates:
   - {fileID: 11400000, guid: ced22492d8bbcc44e8346dbb13564f77, type: 2}

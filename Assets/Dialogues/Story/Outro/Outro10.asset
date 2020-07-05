@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Outro10
   m_EditorClassIdentifier: 
   dialogueText: 1. ...
-  name: You
+  NpcName: You
   nextStates:
   - {fileID: 11400000, guid: 24cdf7507c900a744a3885535f635e83, type: 2}

@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: "He claims his offering is much needed by our people and that it\u2019s
     worth far more than our land."
-  name: Chief Seyseys
+  NpcName: Chief Seyseys
   nextStates:
   - {fileID: 11400000, guid: 1c70414c50befcc459eb887809520d1e, type: 2}

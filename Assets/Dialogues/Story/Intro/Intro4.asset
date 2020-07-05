@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: "Here\u2019s a fun fact for you; did you know the Lenape people, who
     resided in what we now know as Manhattan, sold their land for only $24?"
-  name: Teacher
+  NpcName: Teacher
   nextStates:
   - {fileID: 11400000, guid: c90131b42c91b9d44be6755feded8e64, type: 2}

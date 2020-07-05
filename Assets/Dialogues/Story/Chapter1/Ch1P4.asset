@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Ch1P4
   m_EditorClassIdentifier: 
   dialogueText: "State your business, \u201CAlex\"."
-  name: Peter Minuit
+  NpcName: Peter Minuit
   nextStates:
   - {fileID: 11400000, guid: 2c5c69cf27a8d5941ae8ba5f714ac16b, type: 2}

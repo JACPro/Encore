@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Ch2P6
   m_EditorClassIdentifier: 
   dialogueText: 1. What supplies?
-  name: You
+  NpcName: You
   nextStates:
   - {fileID: 11400000, guid: 900f5adb6c91d2042b58f57e2cfed97a, type: 2}

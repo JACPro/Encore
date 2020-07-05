@@ -14,6 +14,9 @@ public abstract class Goal : ScriptableObject
     public Goal nextGoal;
     public Goal prevGoal;
 
+    //The quest this goal belongs to
+    protected Quest quest;
+
     public void SetNextGoal(Goal goal) {
         nextGoal = goal;
         nextGoal.prevGoal = this;
@@ -38,5 +41,9 @@ public abstract class Goal : ScriptableObject
     public void DeleteTextBox()
     {
         Destroy(textBox);
+    }
+
+    public void AssignQuest(Quest quest) {
+        this.quest = quest;
     }
 }

@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: "The Dutch people have powerful weapons and fancy clothes, but they
     don\u2019t appreciate the value of the land and of the soul."
-  name: Lozen
+  NpcName: Minsi
   nextStates:
   - {fileID: 0}

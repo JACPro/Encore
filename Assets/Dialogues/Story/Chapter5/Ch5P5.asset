@@ -15,7 +15,7 @@ MonoBehaviour:
   dialogueText: '1. Wouldn''t Manhattan be a better name?
 
     2. ...'
-  name: You
+  NpcName: You
   nextStates:
   - {fileID: 11400000, guid: b0225d13d86b7cf4e94fd432d26d83c7, type: 2}
   - {fileID: 11400000, guid: 7c3c549bec2be6840a43ef8805c8e192, type: 2}

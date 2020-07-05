@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: "What strange clothes! You don\u2019t seem like a native though. Tell
     me, where are you from?"
-  name: Willem
+  NpcName: Wouter
   nextStates:
   - {fileID: 11400000, guid: d71dbec11aee27647a0c96ea0ea6b164, type: 2}

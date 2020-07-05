@@ -17,7 +17,7 @@ MonoBehaviour:
     2. America
 
     3. The Netherlands'
-  name: You
+  NpcName: You
   nextStates:
   - {fileID: 11400000, guid: eb78c2134ffd5074e9e1b8eb05f180ab, type: 2}
   - {fileID: 11400000, guid: 4c323d9de9947fd42b2a2e5439582ce1, type: 2}

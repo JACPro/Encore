@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Col4a2d
   m_EditorClassIdentifier: 
   dialogueText: 1. Actually, I think my people are a lot more like yours.
-  name: You
+  NpcName: You
   nextStates:
   - {fileID: 11400000, guid: dc4ec32a77b9330409494fc62c87acc9, type: 2}

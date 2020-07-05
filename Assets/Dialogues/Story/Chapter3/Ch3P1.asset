@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Ch3P1
   m_EditorClassIdentifier: 
   dialogueText: What are you doing back here?
-  name: Peter Minuit
+  NpcName: Peter Minuit
   nextStates:
   - {fileID: 11400000, guid: 063b8dc070ffba0428df05d5f1488a8e, type: 2}

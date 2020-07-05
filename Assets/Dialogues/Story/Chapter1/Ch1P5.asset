@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: "1. I\u2019m just looking around. I\u2019m not really sure how I got
     here. I fell asleep and woke up here."
-  name: You
+  NpcName: You
   nextStates:
   - {fileID: 11400000, guid: d5bac02874164884b92f0b32b8653aea, type: 2}

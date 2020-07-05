@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Outro5
   m_EditorClassIdentifier: 
   dialogueText: "1. Yes sir. I won\u2019t be able to move up into the next year."
-  name: You
+  NpcName: You
   nextStates:
   - {fileID: 11400000, guid: 302052819ead29c4a94658b9ee9b6e28, type: 2}

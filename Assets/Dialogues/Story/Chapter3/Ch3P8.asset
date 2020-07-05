@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Ch3P8
   m_EditorClassIdentifier: 
   dialogueText: 1. What do you want me to do?
-  name: You
+  NpcName: You
   nextStates:
   - {fileID: 11400000, guid: 76f4fc0e1cc7e0c41a726b3e045894a2, type: 2}

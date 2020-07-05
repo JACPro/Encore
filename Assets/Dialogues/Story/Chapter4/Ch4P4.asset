@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Ch4P4
   m_EditorClassIdentifier: 
   dialogueText: Many of these items are strange. I am unfamiliar with their purpose.
-  name: Chief Seyseys
+  NpcName: Chief Seyseys
   nextStates:
   - {fileID: 11400000, guid: 9642e1375642c0243b62f967e692077e, type: 2}

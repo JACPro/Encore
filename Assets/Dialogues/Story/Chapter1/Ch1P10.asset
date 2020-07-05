@@ -15,6 +15,6 @@ MonoBehaviour:
   dialogueText: "Good. Now go and integrate yourself with the locals so it seems like
     you\u2019ve been here a while. Look for chief Seyseys; he leads the \u201CCanarsees\u201D,
     as they are known. "
-  name: Peter Minuit
+  NpcName: Peter Minuit
   nextStates:
   - {fileID: 0}

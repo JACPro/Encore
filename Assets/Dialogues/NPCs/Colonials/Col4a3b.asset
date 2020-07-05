@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: "Eh, but fashion moves so quickly and I don\u2019t have much need
     for it as a sailor, so who knows."
-  name: Willem
+  NpcName: Wouter
   nextStates:
   - {fileID: 0}

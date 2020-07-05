@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: "If I make it known that a scrawny kid managed to slip by me, I\u2019ll
     look inept."
-  name: Peter Minuit
+  NpcName: Peter Minuit
   nextStates:
   - {fileID: 11400000, guid: ce1f3129749d7ae439cb7ed0bfcd46fb, type: 2}

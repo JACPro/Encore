@@ -11,13 +11,11 @@ public class FadeIn : MonoBehaviour
     {
         panel = GetComponent<Image>();
         Color panelColour = panel.color;
-        panelColour.a = 1;
+        panelColour.a = 0;
         panel.color = panelColour;
-        
-        Fade();
     }
 
-    void Fade() {
-        panel.CrossFadeAlpha(0, 2, false);
+    public void Fade() {
+        panel.CrossFadeAlpha(1, 2, false);
     }
 }

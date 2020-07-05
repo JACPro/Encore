@@ -6,30 +6,37 @@ using UnityEngine;
 public class DialogueState : ScriptableObject
 {
     [TextArea(3, 10)] [SerializeField] string dialogueText;
-    [SerializeField] string name;
+    [SerializeField] string NpcName;
 
     [SerializeField] DialogueState[] nextStates;
 
     //return the text for this dialogue state
-    public string getDialogueText()
+    public string GetDialogueText()
     {
         return dialogueText;
     }
 
     //return the name of the person that is talking in this dialogue state (e.g. Player, Wizard)
-    public string getName()
+    public string GetName()
+    {
+        return NpcName;
+    }
+
+    //return the name of this object
+    public string GetObjectName()
     {
         return name;
     }
 
+
     //return an array containing all possible next States after this dialogue
-    public DialogueState[] getNextStates()
+    public DialogueState[] GetNextStates()
     {
         return nextStates;
     }
 
     //returns whether this state requires a user choice
-    public bool getOptional()
+    public bool GetOptional()
     {
         return nextStates.Length > 1;
     }

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Col4a1c
   m_EditorClassIdentifier: 
   dialogueText: They stranded you here? How unfortunate.
-  name: Willem
+  NpcName: Wouter
   nextStates:
   - {fileID: 0}

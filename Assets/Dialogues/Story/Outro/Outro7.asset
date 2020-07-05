@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: "Do yourself a favour and study. I mean really study, like you\u2019ve
     never studied before."
-  name: Teacher
+  NpcName: Teacher
   nextStates:
   - {fileID: 11400000, guid: 765ca4dc13668f14b84b54ed831fed4f, type: 2}

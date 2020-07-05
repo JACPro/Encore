@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: "We get on ok with the Dutch, but I don\u2019t trust them. They care
     more for lifeless possessions than for the invaluable gifts of nature."
-  name: Aponi
+  NpcName: Talli
   nextStates:
   - {fileID: 0}

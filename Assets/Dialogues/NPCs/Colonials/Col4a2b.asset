@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Col4a2b
   m_EditorClassIdentifier: 
   dialogueText: 1. No, I'm from a different... uh... tribe.
-  name: You
+  NpcName: You
   nextStates:
   - {fileID: 11400000, guid: 6ea2858d902ac7949a51d65444708cf9, type: 2}

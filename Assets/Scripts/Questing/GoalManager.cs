@@ -22,7 +22,7 @@ public class GoalManager : MonoBehaviour
             textBox[0].transform.parent.gameObject.SetActive(true);
             for (int i = 0; i < activeGoals.Count; i++) {
                 textBox[i].SetActive(true);
-                textBox[i].GetComponent<TextMeshProUGUI>().text = activeGoals[i].name;
+                textBox[i].GetComponent<TextMeshProUGUI>().text = activeGoals[i].title;
                 if (activeGoals[i].completed) {
                     textBox[i].GetComponent<TextMeshProUGUI>().fontStyle = FontStyles.Strikethrough;
                 } else {

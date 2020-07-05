@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: "We only brought some supplies, but I\u2019ve put together a selection
     of items to show the natives. "
-  name: Peter Minuit
+  NpcName: Peter Minuit
   nextStates:
   - {fileID: 11400000, guid: 937e45fb210fa4f428b4d999169570c5, type: 2}

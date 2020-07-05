@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: 'Soon you shall bear witness to a momentous occasion: the settlement
     of New Amsterdam!'
-  name: Peter Minuit
+  NpcName: Peter Minuit
   nextStates:
   - {fileID: 11400000, guid: 6ae8543574df57d4fbfdc6972ede2772, type: 2}

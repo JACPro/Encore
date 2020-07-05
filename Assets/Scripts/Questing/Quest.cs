@@ -11,6 +11,13 @@ public class Quest : ScriptableObject
     public string name;
     public string description;
 
+    void Start() {
+        //give each goal in this quest a reference to this quest
+        foreach (Goal goal in goals) {
+            goal.AssignQuest(this);
+        }
+    }
+     
     public bool IsComplete() {
         foreach (Goal goal in goals) {
             if (!goal.completed) {

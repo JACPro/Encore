@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: The Dutch try to pay us to leave this land. We are happy to take their
     goods, though most of this area is controlled by a neighbouring tribe, the Wecquaesgeek.
-  name: Aiyana
+  NpcName: Sahele
   nextStates:
   - {fileID: 0}

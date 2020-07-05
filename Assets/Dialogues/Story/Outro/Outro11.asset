@@ -15,6 +15,6 @@ MonoBehaviour:
   dialogueText: Ok, let me give you a hint. Nobody was really there; nobody knows
     what actually happened. Look at the source materials; written documents from the
     time and the such.
-  name: Teacher
+  NpcName: Teacher
   nextStates:
   - {fileID: 11400000, guid: 2cbc8d15ff2cc2a408145afa0e0e09d1, type: 2}

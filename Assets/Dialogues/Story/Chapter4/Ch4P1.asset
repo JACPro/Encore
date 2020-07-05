@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Ch4P1
   m_EditorClassIdentifier: 
   dialogueText: "You have returned. Do you bring chief Minuit\u2019s offering?"
-  name: Chief Seyseys
+  NpcName: Chief Seyseys
   nextStates:
   - {fileID: 11400000, guid: 1557e88a630049e40ad6f50e9c3fae8d, type: 2}

@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: Battles have been fought and lives have been lost because of our differences.
     We have learned to coexist as separate tribes by inhabiting different places.
-  name: Osceola
+  NpcName: Opala
   nextStates:
   - {fileID: 0}

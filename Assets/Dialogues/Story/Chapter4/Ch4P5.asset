@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3691e63c8293404f8f010651b61a6ee, type: 3}
   m_Name: Ch4P5
   m_EditorClassIdentifier: 
-  dialogueText: 1. [Explain what the various tols are for]
-  name: You
+  dialogueText: 1. [Explain what the various tools are for]
+  NpcName: You
   nextStates:
   - {fileID: 11400000, guid: 4df77bbec6b2c3948863cf6e0fb7d9b2, type: 2}

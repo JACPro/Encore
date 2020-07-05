@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: "So you don\u2019t tell any of my men you were on my ship and you\u2019ll
     get to keep your freedom. Deal?"
-  name: Peter Minuit
+  NpcName: Peter Minuit
   nextStates:
   - {fileID: 11400000, guid: e8a28a103ce135943a4dc19d914b6af9, type: 2}

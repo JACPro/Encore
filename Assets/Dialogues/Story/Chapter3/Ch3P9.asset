@@ -15,6 +15,6 @@ MonoBehaviour:
   dialogueText: "We\u2019re hoping to settle on this land. The river provides a good
     location for docking ships near here, so we can bring supplies from the Netherlands
     and trade with the locals."
-  name: Peter Minuit
+  NpcName: Peter Minuit
   nextStates:
   - {fileID: 11400000, guid: b9825377a3a1cfd468f01a690f70681b, type: 2}

@@ -475,7 +475,7 @@ GameObject:
   - component: {fileID: 1055703555615588908}
   m_Layer: 0
   m_Name: Native_American_Man
-  m_TagString: Untagged
+  m_TagString: Canarsee
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -528,6 +528,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7a5a5edd8196fa49a92d5cb7dcd7fba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  name: 
+  startingState: {fileID: 0}
 --- !u!1 &6506404411067700718
 GameObject:
   m_ObjectHideFlags: 0

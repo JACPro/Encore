@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Col4a2e
   m_EditorClassIdentifier: 
   dialogueText: I highly doubt that...
-  name: Willem
+  NpcName: Wouter
   nextStates:
   - {fileID: 0}

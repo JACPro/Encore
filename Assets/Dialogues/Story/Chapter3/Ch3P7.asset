@@ -15,6 +15,6 @@ MonoBehaviour:
   dialogueText: "You must have dealt with their kind before, to be such a fluent speaker!
     You\u2019ve caused me a lot of trouble, but if you act as our translator, I\u2019ll
     forget your crimes."
-  name: Peter Minuit
+  NpcName: Peter Minuit
   nextStates:
   - {fileID: 11400000, guid: 33849d41bc126c342a7f1ad7a84f771a, type: 2}

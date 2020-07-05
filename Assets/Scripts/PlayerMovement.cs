@@ -54,28 +54,31 @@ public class PlayerMovement : MonoBehaviour
         //Calculate how much the player should move based on input
         Vector3 move = transform.right * x + transform.forward * z;
 
-        //Apply player movement
-        //Check for sprint
-        if (Input.GetKey(KeyCode.LeftShift)) {
-            //Sprint movement speed
-            controller.Move(move * speed * sprintModifier *  Time.deltaTime);
-        } 
-        //Check for crouch
-        else if (Input.GetKey(KeyCode.LeftControl)) 
-        {
-            //Crouch movement speed
-            controller.Move(move * speed * crouchModifer * Time.deltaTime);
-            currentHeight = playerHeight / 2;
-        }
-        else
-        {
-            //Normal movement speed
-            controller.Move(move * speed * Time.deltaTime);
-        }
+        //Disallow movement when in dialogue
+        if (!FindObjectOfType<DialogueManager>().GetInDialogue()) {
+            //Apply player movement
+            //Check for sprint
+            if (Input.GetKey(KeyCode.LeftShift)) {
+                //Sprint movement speed
+                controller.Move(move * speed * sprintModifier *  Time.deltaTime);
+            } 
+            //Check for crouch
+            else if (Input.GetKey(KeyCode.LeftControl)) 
+            {
+                //Crouch movement speed
+                controller.Move(move * speed * crouchModifer * Time.deltaTime);
+                currentHeight = playerHeight / 2;
+            }
+            else
+            {
+                //Normal movement speed
+                controller.Move(move * speed * Time.deltaTime);
+            }
 
-        //If player presses jump key and is currently on the ground, jump
-        if(Input.GetButtonDown("Jump") && isGrounded) {
-            velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+            //If player presses jump key and is currently on the ground, jump
+            if(Input.GetButtonDown("Jump") && isGrounded) {
+                velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+            }
         }
 
         //Calculate current y velocity (for gravity)

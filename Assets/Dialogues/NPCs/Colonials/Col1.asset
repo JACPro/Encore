@@ -15,6 +15,6 @@ MonoBehaviour:
   dialogueText: "The indigenous people are incredibly odd. They don\u2019t seem to
     realise the value of their land. We\u2019re certainly not keen to tell them; those
     fools are basically giving it away."
-  name: Johan
+  NpcName: Johann
   nextStates:
   - {fileID: 0}

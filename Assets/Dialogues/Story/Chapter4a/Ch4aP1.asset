@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: My people appreciate your kind gesture and hope it marks the start
     of a peaceful understanding between our tribes.
-  name: Chief Seyseys
+  NpcName: Chief Seyseys
   nextStates:
   - {fileID: 11400000, guid: 901cf72fc738d334f8284fc6e68efd67, type: 2}

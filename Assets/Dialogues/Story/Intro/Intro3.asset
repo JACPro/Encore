@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: "Today, we\u2019ll be looking at what happened when the natives and
     the colonists met and started to trade."
-  name: Teacher
+  NpcName: Teacher
   nextStates:
   - {fileID: 11400000, guid: 2058ee2c54c0ed64eb4d7293816668c6, type: 2}

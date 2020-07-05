@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: I am glad to make your acquaintance. My people shall try to teach
     your people of our ways. We do not wish to fight, but we will not tolerate disrespect.
-  name: Chief Seyseys
+  NpcName: Chief Seyseys
   nextStates:
   - {fileID: 11400000, guid: cbafe590011725842add5aad7dd31d27, type: 2}

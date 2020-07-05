@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Nat3a
   m_EditorClassIdentifier: 
   dialogueText: 1. Do the other tribes share your customs?
-  name: You
+  NpcName: You
   nextStates:
   - {fileID: 11400000, guid: 9e9c1fc1457ca6c43b55a7ea52790aa1, type: 2}

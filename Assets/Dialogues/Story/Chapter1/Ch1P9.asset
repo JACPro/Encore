@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Ch1P9
   m_EditorClassIdentifier: 
   dialogueText: 1. Fair enough. Deal.
-  name: You
+  NpcName: You
   nextStates:
   - {fileID: 11400000, guid: 0b9e944507c34b041a6e19b1fdd12291, type: 2}

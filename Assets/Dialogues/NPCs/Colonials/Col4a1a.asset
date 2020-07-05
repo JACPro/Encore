@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: Ha! I always knew you English were a little odd, but this is just
     bazaar. Where are the rest of your people?
-  name: Willem
+  NpcName: Wouter
   nextStates:
   - {fileID: 11400000, guid: f15896b2bb2fbd94297cb9203b139882, type: 2}

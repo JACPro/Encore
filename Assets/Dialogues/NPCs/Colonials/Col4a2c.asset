@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Col4a2c
   m_EditorClassIdentifier: 
   dialogueText: Are they much different from the people here?
-  name: Willem
+  NpcName: Wouter
   nextStates:
   - {fileID: 11400000, guid: 36489f3ae35d85a43bceeead41c1d70f, type: 2}

@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: 'Those friends you came with think so. We share some customs and differ
     on others. No two tribes are the same. '
-  name: Osceola
+  NpcName: Opala
   nextStates:
   - {fileID: 11400000, guid: e5664e8fd18c2964d8fac86a8a256001, type: 2}

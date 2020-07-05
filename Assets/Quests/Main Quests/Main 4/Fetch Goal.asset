@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d03628cdebc86e84b84efe25b8cb6e3b, type: 3}
+  m_Name: Fetch Goal
+  m_EditorClassIdentifier: 
+  title: Find Minuit's Goods
+  description: Minuit informed you that there is a bag of goods ready to be taken
+    to chief Seyseys on a cart nearby. Find them and pick them up.
+  completed: 0
+  nextGoal: {fileID: 11400000, guid: ed1066915d6fefe438b403ec2e3ef317, type: 2}
+  prevGoal: {fileID: 0}
+  requiredItem: Sack of Supplies

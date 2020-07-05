@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Ch4P3
   m_EditorClassIdentifier: 
   dialogueText: Excellent. Let me see...
-  name: Chief Seyseys
+  NpcName: Chief Seyseys
   nextStates:
   - {fileID: 11400000, guid: 18dcd3d21d323c943904854900f75cbc, type: 2}

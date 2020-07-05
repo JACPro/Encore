@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Outro3
   m_EditorClassIdentifier: 
   dialogueText: Wake up! I hope you had a good nap while the rest of us actually studied.
-  name: Teacher
+  NpcName: Teacher
   nextStates:
   - {fileID: 11400000, guid: d5143fdce2f9d3f4fb6b2482110758f4, type: 2}

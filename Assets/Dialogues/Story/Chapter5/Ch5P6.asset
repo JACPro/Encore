@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Ch5P6
   m_EditorClassIdentifier: 
   dialogueText: What kind of a name is that? It's almost as ridiculous as your name.
-  name: Peter Minuit
+  NpcName: Peter Minuit
   nextStates:
   - {fileID: 11400000, guid: 7c3c549bec2be6840a43ef8805c8e192, type: 2}

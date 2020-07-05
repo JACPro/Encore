@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: I see. These items may prove useful to our tribe, we shall keep them
     as your offering.
-  name: Chief Seyseys
+  NpcName: Chief Seyseys
   nextStates:
   - {fileID: 11400000, guid: d0ea6f20137780749b17855cebf9b16e, type: 2}

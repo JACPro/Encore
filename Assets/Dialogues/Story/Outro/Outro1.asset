@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Outro1
   m_EditorClassIdentifier: 
   dialogueText: Alex...
-  name: Teacher
+  NpcName: Teacher
   nextStates:
   - {fileID: 11400000, guid: b11acab6ead7b344ba28447eb4b95e5f, type: 2}

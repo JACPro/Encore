@@ -15,6 +15,6 @@ MonoBehaviour:
   dialogueText: It was purchased by the Dutch, who controlled the land for nearly
     40 years until the British took the settlement by force and triggered the second
     Anglo-Dutch war.
-  name: Teacher
+  NpcName: Teacher
   nextStates:
   - {fileID: 0}

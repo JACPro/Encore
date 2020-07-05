@@ -7,12 +7,12 @@ public class Item : MonoBehaviour
     [SerializeField] string itemName;
     [SerializeField] string description;
 
-    public string getName() 
+    public string GetName() 
     {
         return itemName;
     }
 
-    public string getDescription()
+    public string GetDescription()
     {
         return description;
     }

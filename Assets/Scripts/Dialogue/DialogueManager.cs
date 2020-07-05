@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -13,11 +14,19 @@ public class DialogueManager : MonoBehaviour
 
     public Animator animator;
 
+    [SerializeField]
+    Image crosshair;
+
+    [SerializeField]
+    TextMeshProUGUI pressEText;
+
     DialogueState currentState;
 
     bool isTyping = false;
 
     bool waitingForResponse = false;
+
+    bool inDialogue = false; 
 
     void Start() {
         currentState = new DialogueState();
@@ -31,14 +40,14 @@ public class DialogueManager : MonoBehaviour
             }
             if (Input.GetKeyDown(KeyCode.Alpha2))
             {
-                if (currentState.getNextStates().Length > 1)
+                if (currentState.GetNextStates().Length > 1)
                 {
                     DisplayNextSentence(2);
                 }
             }
             if (Input.GetKeyDown(KeyCode.Alpha3))
             {
-                if (currentState.getNextStates().Length > 2) {
+                if (currentState.GetNextStates().Length > 2) {
                     DisplayNextSentence(3);
                 }
             }        
@@ -46,6 +55,12 @@ public class DialogueManager : MonoBehaviour
     }
 
     public void StartDialogue (DialogueState startingDialogue) {
+        inDialogue = true;
+        FindObjectOfType<PlayerInteract>().SetCanInteract(false);
+        pressEText.text = "";
+        crosshair.gameObject.SetActive(false);
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
         animator.SetBool("IsOpen", true);
         currentState = startingDialogue;
         SetNextState();
@@ -55,13 +70,13 @@ public class DialogueManager : MonoBehaviour
         //If typing, stop typing and complete message
         if (isTyping) {
             StopAllCoroutines();
-            dialogueText.text = currentState.getDialogueText();
+            dialogueText.text = currentState.GetDialogueText();
             isTyping = false;
             return;
         }
 
         //If no more sentences and not typing, end dialogue
-        if (currentState.getNextStates()[0] == null || currentState.getNextStates().Length < 1)
+        if (currentState.GetNextStates()[0] == null || currentState.GetNextStates().Length < 1)
         {
             EndDialogue();
             return;
@@ -71,10 +86,10 @@ public class DialogueManager : MonoBehaviour
         switch (choice)
         {
             case 0: //if this state is non-user choice
-                currentState = currentState.getNextStates()[0];
+                currentState = currentState.GetNextStates()[0];
                 break;
             default: //if user choice, load the user's choice
-                currentState = currentState.getNextStates()[choice - 1];
+                currentState = currentState.GetNextStates()[choice - 1];
                 break;
         }
 
@@ -82,20 +97,20 @@ public class DialogueManager : MonoBehaviour
     }
 
     void SetNextState() {
-        nameText.text = currentState.getName();
-        if (currentState.getName() != "You")
+        nameText.text = currentState.GetName();
+        if (currentState.GetName() != "You")
         {
             continueButton.gameObject.SetActive(true); //show the continue button
             waitingForResponse = false;
             isTyping = true;
             StopAllCoroutines();
-            StartCoroutine(TypeSentence(currentState.getDialogueText()));
+            StartCoroutine(TypeSentence(currentState.GetDialogueText()));
         }
         else
         {
             continueButton.gameObject.SetActive(false); //hide the continue button
             waitingForResponse = true;
-            dialogueText.text = currentState.getDialogueText(); //set choice text        
+            dialogueText.text = currentState.GetDialogueText(); //set choice text        
         }
     }
 
@@ -113,8 +128,18 @@ public class DialogueManager : MonoBehaviour
     }    
 
     void EndDialogue() {
+        inDialogue = false;
+        FindObjectOfType<PlayerInteract>().SetCanInteract(true);
+        crosshair.gameObject.SetActive(true);
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+        FindObjectOfType<GameManager>().DialogueEnd(currentState.name);
         animator.SetBool("IsOpen", false);
         isTyping = false;
         StopAllCoroutines();
+    }
+
+    public bool GetInDialogue() {
+        return inDialogue;
     }
 }

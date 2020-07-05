@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: 'Last time, we had a brief look at the lives of native Americans before
     colonisation and saw that they had a very different life style. '
-  name: Teacher
+  NpcName: Teacher
   nextStates:
   - {fileID: 11400000, guid: a376cd48eb83cc24fba36195a7f8cbb1, type: 2}

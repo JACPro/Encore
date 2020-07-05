@@ -15,6 +15,6 @@ MonoBehaviour:
   dialogueText: "The natives live out of portable homes and spend their days travelling.
     If they had any sense whatsoever, they\u2019d build homes and farms so they don\u2019t
     have to move all the time."
-  name: Frederick
+  NpcName: Willem
   nextStates:
   - {fileID: 0}

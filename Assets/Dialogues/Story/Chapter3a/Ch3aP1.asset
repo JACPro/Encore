@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Ch3aP1
   m_EditorClassIdentifier: 
   dialogueText: Talk to me again when you've shown our wares to chief Seyseys.
-  name: Peter Minuit
+  NpcName: Peter Minuit
   nextStates:
   - {fileID: 0}

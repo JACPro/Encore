@@ -15,6 +15,6 @@ MonoBehaviour:
   dialogueText: "Use your head and read between the lines. You don\u2019t need to
     tell me what really happened, only what might have happened. But make it convincing.
     Make it real."
-  name: Teacher
+  NpcName: Teacher
   nextStates:
   - {fileID: 0}

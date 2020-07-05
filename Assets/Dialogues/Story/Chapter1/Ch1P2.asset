@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Ch1P2
   m_EditorClassIdentifier: 
   dialogueText: "1. Um\u2026 Alex."
-  name: You
+  NpcName: You
   nextStates:
   - {fileID: 11400000, guid: e9f0bd44876830b4c961671f73180e9e, type: 2}

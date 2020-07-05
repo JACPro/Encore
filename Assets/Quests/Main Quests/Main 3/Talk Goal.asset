@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dff5aa78e8726774fb19084649c4b585, type: 3}
+  m_Name: Talk Goal
+  m_EditorClassIdentifier: 
+  title: Talk to Peter Minuit
+  description: Seyseys wants to see the goods promised to him by Peter Minuit. You
+    should let him know.
+  completed: 0
+  nextGoal: {fileID: 0}
+  prevGoal: {fileID: 0}
+  npc: Peter Minuit

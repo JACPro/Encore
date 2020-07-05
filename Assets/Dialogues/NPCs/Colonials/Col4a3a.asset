@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: "Ahaha, nice try! I think I\u2019d notice if someone dressed like
     that went walking around my homeland."
-  name: Willem
+  NpcName: Wouter
   nextStates:
   - {fileID: 11400000, guid: 38fffebc8d7008f45b2bc1721ebb9dce, type: 2}

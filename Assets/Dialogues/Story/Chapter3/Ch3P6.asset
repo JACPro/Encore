@@ -16,7 +16,7 @@ MonoBehaviour:
 
     2. What are you talking about? He was pretty upfront so it wasn''t exactly hard
     to figure out what he was saying.'
-  name: You
+  NpcName: You
   nextStates:
   - {fileID: 11400000, guid: fd4297e1d72e1cc46a374d336829e105, type: 2}
   - {fileID: 11400000, guid: 4ba9e9c5a7dafb9448688b9968d75b9c, type: 2}

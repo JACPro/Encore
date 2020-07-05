@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Ch1P3
   m_EditorClassIdentifier: 
   dialogueText: "What a ridiculous name; your parents must have disliked you greatly.\r"
-  name: Peter Minuit
+  NpcName: Peter Minuit
   nextStates:
   - {fileID: 11400000, guid: c42eeac8214e6f1458c6362e910d66d5, type: 2}

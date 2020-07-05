@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: "But we have yet to see it. We will not vacate our home based solely
     on the promises of strangers. We\u2019re not going anywhere until we see the goods."
-  name: Chief Seyseys
+  NpcName: Chief Seyseys
   nextStates:
   - {fileID: 0}

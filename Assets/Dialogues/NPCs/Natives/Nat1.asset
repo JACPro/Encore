@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: These white men are strange, but they have many tools and supplies
     that would be useful to our tribe.
-  name: Neolin
+  NpcName: Gela
   nextStates:
   - {fileID: 0}

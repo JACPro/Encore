@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: "Oh, so you are a native? Are you with these\u2026 \u201CCanarsee\u201D
     people?"
-  name: Willem
+  NpcName: Wouter
   nextStates:
   - {fileID: 11400000, guid: 0aaf2ece881571c40815a746991d1c0a, type: 2}

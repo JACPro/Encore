@@ -16,48 +16,9 @@ public class QuestManager : MonoBehaviour
 
     float paddingBetweenQuests = 10f;
 
-    void Start() {
-        Quest quest1 = new Quest();
-        quest1.name = "Wow! My first Quest!";
-        quest1.description = "Wow! My first Quest!";
-        GiveQuest(quest1);
-        Goal goal1 = new FetchGoal();
-        goal1.name = "Go fetch a thing!";
-        goal1.description = "Description says you should go fetch a thing!";
-        goal1.completed = true;
-        Goal goal2 = new TalkGoal();
-        goal2.name = "Go talk to someone!";
-        goal2.description = "Description says you should go talk to someone!";
-        quest1.AssignGoal(goal1);
-        quest1.AssignGoal(goal2);
-        Quest quest2 = new Quest();
-        quest2.name = "A second quest. Time for an adventure!";
-        quest2.description = "A second quest. Time for an adventure!";
-        GiveQuest(quest2);
-        Quest quest3 = new Quest();
-        quest3.name = "Congratulations on being given your third quest.";
-        quest3.description = "Congratulations on being given your third quest.";
-        GiveQuest(quest3);
-        Quest quest4 = new Quest();
-        quest4.name = "Congratulations on your fourth quest.";
-        quest4.description = "Congratulations on your fourth quest.";
-        GiveQuest(quest4);
-        Quest quest5 = new Quest();
-        quest5.name = "Congratulations on being given your fifth quest.";
-        quest5.description = "Congratulations on being given your fifth quest.";
-        GiveQuest(quest5);
-        Quest quest6 = new Quest();
-        quest6.name = "Congratulations on being given your sixth quest.";
-        quest6.description = "Congratulations on being given your sixth quest.";
-        GiveQuest(quest6);
-
-        foreach(Quest quest in completedQuests) {
-            Debug.Log(quest.name);
-        }
-    }
-
     public void GiveQuest(Quest quest) {
         if (CheckIfSpaceForQuest()) {
+            FindObjectOfType<GameManager>().ShowQuestBox();
             //create a duplicate of the original quest name text box
             GameObject questTextBox = Instantiate(textBox);
             questTextBox.name = "" + activeQuests.Count;

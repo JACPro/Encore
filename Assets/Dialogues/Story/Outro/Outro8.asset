@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: This next report is on a specialist subject; the sale of Manhattan
     from the native Americans to the Dutch colonists.
-  name: Teacher
+  NpcName: Teacher
   nextStates:
   - {fileID: 11400000, guid: 44d32d59054de384e953d56145f99cf2, type: 2}

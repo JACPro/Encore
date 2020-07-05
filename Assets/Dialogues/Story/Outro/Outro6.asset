@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: "That\u2019s right. Believe me, I\u2019m really trying to help you
     here, but I can\u2019t do anything if you don\u2019t help yourself."
-  name: Teacher
+  NpcName: Teacher
   nextStates:
   - {fileID: 11400000, guid: 01d12998171d4d544a79cfbd973d99e3, type: 2}

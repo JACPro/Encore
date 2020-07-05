@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: Greetings, young one. I am Seyseys, chief of these people. Did the
     Dutch man send you here?
-  name: Chief Seyseys
+  NpcName: Chief Seyseys
   nextStates:
   - {fileID: 11400000, guid: dc14f13936eec8940bb5d780ca888165, type: 2}

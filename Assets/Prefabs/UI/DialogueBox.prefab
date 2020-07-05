@@ -278,7 +278,7 @@ RectTransform:
   m_GameObject: {fileID: 4700985945047789036}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.74818, y: 0.74818, z: 0.74818}
   m_Children:
   - {fileID: 4700985943893919922}
   m_Father: {fileID: 4700985944016215557}
@@ -286,7 +286,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -101.79999, y: 25.300049}
+  m_AnchoredPosition: {x: -84, y: 25.300049}
   m_SizeDelta: {x: 167.5, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4700985945047789032
@@ -409,7 +409,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -142.1, y: 158.5}
+  m_AnchoredPosition: {x: -148, y: 113}
   m_SizeDelta: {x: 445.8, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4700985945131429295
@@ -466,8 +466,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 32
-  m_fontSizeBase: 32
+  m_fontSize: 26
+  m_fontSizeBase: 26
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -564,8 +564,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -18.1, y: 68}
-  m_SizeDelta: {x: 693.9, y: 113.3}
+  m_AnchoredPosition: {x: -18.1, y: 47.2}
+  m_SizeDelta: {x: 693.9, y: 71.8}
   m_Pivot: {x: 0.50000006, y: 0.5}
 --- !u!222 &4700985945277154518
 CanvasRenderer:
@@ -593,9 +593,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "We were promised many valuable items in return for my people leaving this
-    land so the Dutch may reside here. He claims his offering is much needed by our
-    people and that it\u2019s worth far more than our land."
+  m_text: "Ahaha, nice try! I think I\u2019d notice if someone dressed like that went
+    walking around my homeland. Eh, but fashion moves so quickly and I don\u2019t
+    have much need for it as a sailor, so who knows."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -623,8 +623,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 26
-  m_fontSizeBase: 26
+  m_fontSize: 22
+  m_fontSizeBase: 22
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -661,15 +661,15 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: -16.806368, z: 0, w: 0}
+  m_margin: {x: -7.9115825, y: -16.806368, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 4700985945277154519}
-    characterCount: 204
+    characterCount: 191
     spriteCount: 0
-    spaceCount: 38
-    wordCount: 39
+    spaceCount: 36
+    wordCount: 37
     linkCount: 0
-    lineCount: 4
+    lineCount: 3
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0

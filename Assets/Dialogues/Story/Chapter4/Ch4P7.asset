@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: However, this land is worth more to us, so we ask that your friends
     offer a greater gift if they wish for us to vacate this area.
-  name: Chief Seyseys
+  NpcName: Chief Seyseys
   nextStates:
   - {fileID: 0}

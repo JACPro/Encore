@@ -15,6 +15,6 @@ MonoBehaviour:
   dialogueText: "A stowaway, eh? Normally I\u2019d have my men arrest you for coming
     aboard my ship unauthorised, but frankly, that\u2019s more work than it\u2019s
     worth. "
-  name: Peter Minuit
+  NpcName: Peter Minuit
   nextStates:
   - {fileID: 11400000, guid: c7602fb1dac62b342b1fb96214857773, type: 2}

@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5166973384427341111
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5166973384427341105}
+  - component: {fileID: 5166973384427341110}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5166973384427341105
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5166973384427341111}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.5643692, y: 1.7798035, z: 2.8074892}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5166973384427341110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5166973384427341111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6487e634e1d74d48ba5477d20b2c077, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newQuestBox: {fileID: 0}
+  fadePanel: {fileID: 0}
+  main1: {fileID: 11400000, guid: 443e4de25c5b6d747bf6aeed64f09bc7, type: 2}
+  main2: {fileID: 11400000, guid: 9cc75ee832d89d941b035c386fbf048e, type: 2}
+  main3: {fileID: 11400000, guid: cb502eb07d637114ca996d1d7d8586f8, type: 2}
+  main4: {fileID: 11400000, guid: ec1f421d41c942a43b61941e338709bb, type: 2}
+  main5: {fileID: 11400000, guid: 191dcb67efc555e4ea2c2d9390a27f69, type: 2}
+  nativeTalk: {fileID: 11400000, guid: b6231cbf2d26c6540ad479300139b46f, type: 2}
+  colonistTalk: {fileID: 11400000, guid: e66fb180d4f5f3f44be4d37f694d1c18, type: 2}

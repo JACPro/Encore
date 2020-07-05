@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: "You received an F in your last 3 essays. Unless you get a B in your
     next report, you\u2019ll have failed History as a whole. You know what that means?"
-  name: Teacher
+  NpcName: Teacher
   nextStates:
   - {fileID: 11400000, guid: 1ac653470646deb41abc73f0d1254b7f, type: 2}

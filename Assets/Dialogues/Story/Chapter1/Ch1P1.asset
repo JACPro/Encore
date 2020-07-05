@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Ch1P1
   m_EditorClassIdentifier: 
   dialogueText: Halt! Who goes there?
-  name: Peter Minuit
+  NpcName: Peter Minuit
   nextStates:
   - {fileID: 11400000, guid: 116e58d78d673604cb8bc27f5544319d, type: 2}

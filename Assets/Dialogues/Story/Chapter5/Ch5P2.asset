@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: "1.  Seyseys accepted the items but said he\u2019s not leaving unless
     you give him a lot more."
-  name: You
+  NpcName: You
   nextStates:
   - {fileID: 11400000, guid: 6c11108b390fbe74bb3027332072c6db, type: 2}
