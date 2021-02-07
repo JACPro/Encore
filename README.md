@@ -5,12 +5,12 @@ Encore is an educational history game that aims to bridge the gap between games 
 
 ___
 
-<img src="https://jacpro.github.io/images/encore1.png" title="Title Screen" width="33%"></img>
-<img src="https://jacpro.github.io/images/encore4.png" title="Optional Dialogue" width="33%"></img>
-<img src="https://jacpro.github.io/images/encore5.png" title="Classroom Scene" width="33%"></img>
-<img src="https://jacpro.github.io/images/encore3.png" title="Pause Screen" width="33%"></img>
-<img src="https://jacpro.github.io/images/encore6.png" title="Quest System" width="33%"></img> 
-<img src="https://jacpro.github.io/images/encore2.png" title="University Poster Submission" width="33%"></img> 
+<img src="https://jacpro.github.io/images/encore1.png" title="Title Screen" width="32%"></img>
+<img src="https://jacpro.github.io/images/encore4.png" title="Optional Dialogue" width="32%"></img>
+<img src="https://jacpro.github.io/images/encore5.png" title="Classroom Scene" width="32%"></img>
+<img src="https://jacpro.github.io/images/encore3.png" title="Pause Screen" width="32%"></img>
+<img src="https://jacpro.github.io/images/encore6.png" title="Quest System" width="32%"></img> 
+<img src="https://jacpro.github.io/images/encore2.png" title="University Poster Submission" width="32%"></img> 
 
 ___
 
