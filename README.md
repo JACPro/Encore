@@ -27,4 +27,6 @@ The game features branching dialogue and a quest system and has been made as his
 
 In creating this project, I utilised knowledge gained through the software engineering module I studied in my second year, and proceeded through the steps of the software development life cycle in turn. I retained all documents I produced through each of the analysis, design, production, testing, and evaluation stages of this project, and compiled them into a final report. 
 
+___
 #### To read my final report, [click here](https://www.scribd.com/document/471797368/Final-Report-pdf#)
+___
